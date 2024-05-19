@@ -2,6 +2,8 @@
 
 #### 1. Run 'docker compose up' inside airflow directory
 
+![Docker](https://github.com/maciejdziedzic/energy-api/blob/main/assets/docker.gif?raw=true)
+
 #### 2. Run 'docker compose up' inside kafka directory
 
 #### 3. Run 'docker compose up' inside spark
