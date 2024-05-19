@@ -1,6 +1,8 @@
 # Instruction:
 
-### 1. Run 'docker compose up' inside airflow directory
+#### 1. Run 'docker compose up' inside airflow directory
+
+
 
 ### 2. Run 'docker compose up' inside kafka directory
 
