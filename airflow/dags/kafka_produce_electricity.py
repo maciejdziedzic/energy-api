@@ -32,14 +32,12 @@ def stream_data():
     curr_time = time.time()
 
     while True:
-        if time.time() > curr_time + 530:
-            break
         try:
             res = get_data()
-
             producer.send('energy_data', json.dumps(res).encode('utf-8'))
+            time.sleep(10)
         except Exception as e:
-            logging.error(f'An error occured: {e}')
+            logging.error(f'An error occurred: {e}')
             continue
 
 
