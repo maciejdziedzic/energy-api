@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: "spark_energy_metrics"
+    static_configs:
+      - targets: ["jupyterlab:8000"]
+# server:
+#   http_listen_port: 9999

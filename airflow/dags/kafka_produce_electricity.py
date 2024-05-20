@@ -32,7 +32,7 @@ def stream_data():
     curr_time = time.time()
 
     while True:
-        if time.time() > curr_time + 30:
+        if time.time() > curr_time + 530:
             break
         try:
             res = get_data()
