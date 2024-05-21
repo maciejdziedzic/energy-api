@@ -26,7 +26,7 @@
 
 #### 5. Stream to Prometheus using notebook and prometheus http server
 
-![Docker](https://github.com/maciejdziedzic/energy-api/blob/main/assets/notebook.gif?raw=true)
+![Docker](https://github.com/maciejdziedzic/energy-api/blob/main/assets/notebook_http_server.gif?raw=true)
 
 #### 6. Visualisation in Prometheus
 
