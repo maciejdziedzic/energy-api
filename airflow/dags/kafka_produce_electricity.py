@@ -21,7 +21,7 @@ def get_data():
     res_dict = res['records'][::][0]
 
     extracted_dict = {k: v for k, v in res_dict.items() if k in [
-        "Minutes1UTC", "SolarPower", "OnshoreWindPower"]}
+        "Minutes1UTC", "SolarPower", "OnshoreWindPower", "OffshoreWindPower", "CO2Emission"]}
 
     return extracted_dict
 
