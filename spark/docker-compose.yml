@@ -1,8 +1,11 @@
 version: "3.6"
 volumes:
   shared-workspace:
-    name: "hadoop-distributed-file-system"
     driver: local
+    driver_opts:
+      type: none
+      device: /mnt/c/Users/Maciek/Desktop/data-engineering/energy_data/spark_workspace
+      o: bind
 networks:
   default:
     name: kafka-spark-network

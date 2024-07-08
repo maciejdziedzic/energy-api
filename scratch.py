@@ -1,12 +1,7 @@
-sample = 'baabs'
-stack = []
+class MyDataReader:
+    template_fields: Sequence[str] = ("path",)
 
-for s in sample:
-    if stack and s == stack[-1]:
-        stack.pop()
-    else:
-        stack.append(s)
+    def __init__(self, my_path):
+        self.path = my_path
 
-output = "".join(stack)
-
-print(output)
+ins = MyDataReader()
